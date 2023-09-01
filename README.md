@@ -1,6 +1,7 @@
-# aafiamediretreats
-# AAFIA MEDIRETREATS
-# Technology used
+# SALIL RAVINDRA BHAGAT
+## IDEAMAGIX ASSIGNMENT
+## AAFIA MEDIRETREATS
+## Technology used
 -HTML
 -CSS
 -JAVASCRIPT
