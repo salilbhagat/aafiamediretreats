@@ -1,0 +1,172 @@
+/* Style the tab buttons */
+.tab-container  {
+    display: inline-flexbox;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #111;
+    padding: 10px;
+}
+.tab {  
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    padding-top: 20px; 
+    position: relative;
+    border: none; 
+}
+.tab-body {  
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    padding-top: 20px; 
+    border: none; 
+    float: left;
+    width: 70%;
+    
+    
+}
+
+.tab-body-100 {  
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    padding-top: 20px; 
+    border: none; 
+    float: left;
+    width: 100%;
+    
+}
+
+
+.tab > .div{
+    color: #fff;
+    background-color: #fff;
+}
+/* Style the tab content */
+.tab-content {
+    display: none;
+    padding: 20px; 
+}
+
+/* Add an outline to the selected tab */
+.tab.active {
+    border-bottom: 2px solid #0096FF; 
+    background-color: #fff;
+}
+
+/* Display the active tab content */
+.tab-content.active {
+    display: block;
+}
+
+.tab > .img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url("assets/logos/knee.png");
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+
+input[type=text],input[type=email],input[type=tel],textarea{
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #0096FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 25%;
+    cursor: pointer; 
+  } 
+
+  @media (max-width:600px) {
+    /* Style the tab buttons */
+.tab-container  {
+    display: inline-flexbox;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #111;
+    padding: 10px;
+}
+.tab {  
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    padding-top: 20px; 
+    border: none; 
+}
+.tab-body {  
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    padding-top: 20px; 
+    border: none; 
+    float: left;
+    width: 100%;
+}
+
+.tab > .div{
+    color: #fff;
+    background-color: #fff;
+}
+/* Style the tab content */
+.tab-content {
+    display: none;
+    padding: 20px; 
+}
+
+/* Add an outline to the selected tab */
+.tab.active {
+    border-bottom: 2px solid #0096FF; 
+    background-color: #fff;
+}
+
+/* Display the active tab content */
+.tab-content.active {
+    display: block;
+}
+
+.tab > .img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url("assets/logos/knee.png");
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+
+input[type=text],input[type=email],input[type=tel],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #0096FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer; 
+  } 
+  }
+ 
+
+
+
+

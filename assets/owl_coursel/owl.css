@@ -1,0 +1,12 @@
+.contain {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.item {
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
